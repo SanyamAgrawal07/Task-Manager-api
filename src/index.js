@@ -1,4 +1,5 @@
 const express = require('express')
+require('dotenv').config()
 require('./db/mongoose')  // We dont need anything from it just to make sure it runs first and connects to the database
 
 const app = express()
